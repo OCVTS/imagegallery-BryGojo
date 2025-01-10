@@ -9,6 +9,19 @@ body {
     background-color: #f4f4f4
 }
 
+#header {
+    height: 20vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+    background-color: lightblue;
+}
+
 #gallery-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -44,7 +57,20 @@ body {
         visibility: visible;
         opacity: 1;
     }
+
+    .lightbox-content {
+        position: SpeechRecognitionAlternative;
+        display: flex;
+        align-items: center;
+    }
     
-.lightbox-content img {
-    border-radius: 5px;
+.lightbox-content button {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0 1rem;
+    border-radius: 50%;
 }

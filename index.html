@@ -10,6 +10,7 @@
     <body>
         <header></header>
         <main>
+            <!--Day !: Review basic html, image tags, and placeholder imags-->
         <h1>My Image Gallery</h1>
         <div id="gallery-container">
             <img src="https://placehold.co/600x400" alt ="img 1 place holder">
@@ -17,6 +18,13 @@
             <img src="https://placehold.co/600x400" alt ="img 3 place holder">
 
         </div>
+        <!-- Lightbox for displaying selected images -->
+         <div id="lightbox" class="hidden">
+            <div class ="lightbox-content">
+                <button id="prev">&lt;</button>
+                <img id="lightbox-img" src="" alt="">
+            </div>
+         </div>
     </main>
         <footer></footer>
         <script src="script.js"></script>
